@@ -1,0 +1,5 @@
+n=input("Enter the number:")
+n_1=int(n)
+n_2=int(n*2)
+n_3=int(n*3)
+print(n_1+n_2+n_3)
