@@ -1,0 +1,8 @@
+sec_1=int(input("Enter seconds:"))
+#sec_2=int(input("Enter seconds again:"))
+#sec_3=int(input("Enter seconds one more time:"))
+days_1=int(sec_1/86400)
+hours_1=int((sec_1-(86400*days_1))/3600)
+min_1=int((sec_1-((86400*days_1)+(3600*hours_1)))/60)
+seconds_1=int((sec_1-((86400*days_1)+(3600*hours_1)+(min_1*60))))
+print(days_1, "day(s),", hours_1,"hour(s),", min_1, "minute(s),", seconds_1, "second(s).")
